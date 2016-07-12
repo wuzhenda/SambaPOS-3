@@ -73,7 +73,7 @@ namespace Samba.Localization.Extensions
         /// </returns>
         protected override string FormatText(string target)
         {
-            return target == null ? string.Empty : target.ToUpper(this.GetForcedCultureOrDefault()).Replace("ß", "SS");
+            return target == null ? string.Empty : target.ToUpper(this.GetForcedCultureOrDefault()).Replace("?","SS");
         }
 
         /// <summary>
